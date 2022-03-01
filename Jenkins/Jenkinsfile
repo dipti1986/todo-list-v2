@@ -4,7 +4,7 @@ pipeline {
     environment{
         CREATE_SCHEMA = "true"
         RUN_APP = "false"
-        DATABASE_URI = sqlite:///data.db
+        DATABASE_URI = "sqlite:///data.db"
             }
     stages {
         stage('Setup') {
